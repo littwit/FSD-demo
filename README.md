@@ -1,17 +1,15 @@
 # FSD-demo
 
-# Overview
-This repository provides tools for loading and visualizing simulation example data. The code is designed to handle structured and unstructured simulation data, with support for common scientific data formats and flexible visualization options.
+## Overview
+This repository provides tools for loading and visualizing simulation example data of Forming Simulation Dataset (FSD). The code is designed to handle the unstructured simulation data, with support for common scientific data formats and flexible visualization options.
 
-# Features
-​​Data Loading​​: Supports loading simulation data from various formats (CSV, NPY, HDF5, etc.)
-​​Data Processing​​: Includes basic data cleaning and normalization
-​​Visualization​​: Multiple plotting options for 1D, 2D, and 3D data
-​​Interactive Exploration​​: Jupyter notebook support for interactive data analysis
+## Features
+​​- Data Loading​​: Supports loading simulation data from ZIP formats
+​​- Visualization​​: full-field multiphysics with different time steps
 
-# Examples
-Example datasets are provided in the examples/ directory:
+## Examples
+- Example data is provided in 'ExpSimuRes.zip'
+- Data loading and visualization is realized by 'main.py'
+- The visualization result of this example is presented in 'Visual_full_field.pdf'
 
-thermal_simulation.h5 - 3D thermal diffusion
-fluid_flow.csv - Unstructured CFD results
-particle_trajectories/ - Time series particle data
+
