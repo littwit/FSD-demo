@@ -146,7 +146,7 @@ def VisualFullFields(data):
 # Usage example
 if __name__=='__main__':
 
-    data = load_csvs_from_zip(f'{pth}/SimuRes.zip')
+    data = load_csvs_from_zip(f'{pth}/ExpSimuRes.zip')
 
     # Access CSV data in specific subfolders
     for subfolder, csv_dict in data.items():
